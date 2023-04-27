@@ -66,10 +66,3 @@ pipeline(readableFileStream, encrypt, encryptedFileStream, err=>{
         console.log("the error is, ",err)
     }
 })
-
-//Using finished
-// readableFileStream.pipe(encrypt).pipe(encryptedFileStream);
-// finished(readableFileStream, err=>{
-//         console.log("the error is, ",err)
-
-// })
